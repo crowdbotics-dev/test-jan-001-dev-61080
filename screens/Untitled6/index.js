@@ -15,7 +15,9 @@ const Untitled6 = ({
       position: 'relative',
       flex: 1
     }}><Pressable onPress={{}}><Pressable onPress={{}}><Pressable onPress={() => {
-            navigation.navigate("Untitled2");
+            navigation.navigate("Untitled2", {
+              test: "test"
+            });
           }}><View style={styles.aUliIWKx}></View></Pressable></Pressable></Pressable><Pressable onPress={{}}><Pressable onPress={{}}><Pressable onPress={{}}><Pressable onPress={{}}><Pressable onPress={{}}><Pressable onPress={{}}><Text style={styles.UdtHWpWS}>Lorem ipsum…</Text></Pressable></Pressable></Pressable></Pressable></Pressable></Pressable><Pressable onPress={{}}><Pressable onPress={() => {
           navigation.navigate("Untitled2", {
             paramtest: "paramtest"
