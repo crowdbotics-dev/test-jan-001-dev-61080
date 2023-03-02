@@ -22,7 +22,10 @@ const styles = StyleSheet.create({
     width: 140,
     backgroundColor: "#E4E4E4",
     borderRadius: 0,
-    color: "#777777"
+    color: "#777777",
+    position: "absolute",
+    left: 143,
+    top: 253
   }
 });
 export default Untitled12;
