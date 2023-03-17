@@ -1,3 +1,4 @@
+import { View } from "react-native";
 import { TextInput } from "react-native";
 import { Pressable } from "react-native";
 import { Text } from "react-native";
@@ -11,7 +12,7 @@ const Untitled3 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><Pressable><Pressable><Text style={styles.IHmJxyhM}>Lorem ipsum…</Text></Pressable></Pressable><TextInput style={styles.DViYqIqT}></TextInput></ScrollView>
+    }}><Pressable><Pressable><Text style={styles.IHmJxyhM}>Lorem ipsum…</Text></Pressable></Pressable><TextInput style={styles.DViYqIqT}></TextInput><View style={styles.CdAuCkgx}></View></ScrollView>
     </SafeAreaView>;
 };
 
@@ -33,6 +34,13 @@ const styles = StyleSheet.create({
     borderColor: "#cccccc",
     width: 150,
     height: 30
+  },
+  CdAuCkgx: {
+    height: 60,
+    width: 140,
+    backgroundColor: "#E4E4E4",
+    borderRadius: 0,
+    color: "#777777"
   }
 });
 export default Untitled3;
