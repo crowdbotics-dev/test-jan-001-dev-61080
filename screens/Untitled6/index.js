@@ -1,14 +1,15 @@
+import { Text } from "react-native";
 import React from "react";
-import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
+import { View, StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
-const Untitled2 = () => {
+const Untitled6 = () => {
   return <SafeAreaView style={styles.safeArea}>
         <ScrollView contentContainerStyle={{
       backgroundColor: '#f0f0f1',
       padding: 10,
       position: 'relative',
       flex: 1
-    }}></ScrollView>
+    }}><Text style={styles.FbCXdPCq}>Lorem ipsum…</Text><View style={styles.UHolEsyt}></View></ScrollView>
     </SafeAreaView>;
 };
 
@@ -16,24 +17,19 @@ const styles = StyleSheet.create({
   safeArea: {
     height: '100%'
   },
-  sBlWzWPk: {
+  FbCXdPCq: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
+  },
+  UHolEsyt: {
     height: 60,
     width: 140,
     backgroundColor: "#E4E4E4",
     borderRadius: 0,
     color: "#777777"
-  },
-  SjpnPQze: {
-    width: 107,
-    height: 62
-  },
-  DpDQSsOI: {
-    width: 107,
-    height: 62
-  },
-  DzpNNNdv: {
-    width: 107,
-    height: 62
   }
 });
-export default Untitled2;
+export default Untitled6;
