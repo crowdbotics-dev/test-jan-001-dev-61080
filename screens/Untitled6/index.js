@@ -1,6 +1,5 @@
-import { Text } from "react-native";
 import React from "react";
-import { View, StyleSheet, ScrollView, SafeAreaView } from "react-native";
+import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
 const Untitled6 = () => {
   return <SafeAreaView style={styles.safeArea}>
@@ -9,7 +8,7 @@ const Untitled6 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><Text style={styles.FbCXdPCq}>Lorem ipsum…</Text><View style={styles.UHolEsyt}></View></ScrollView>
+    }}></ScrollView>
     </SafeAreaView>;
 };
 
