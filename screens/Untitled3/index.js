@@ -40,8 +40,8 @@ const styles = StyleSheet.create({
   },
   CdAuCkgx: {
     height: 60,
-    width: 100,
-    backgroundColor: "#E4E4E4",
+    width: 200,
+    backgroundColor: "#f60000",
     borderRadius: 0,
     color: "#777777",
     top: 30,
