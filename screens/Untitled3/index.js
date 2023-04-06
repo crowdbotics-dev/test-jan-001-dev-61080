@@ -1,5 +1,4 @@
 import { ImageBackground } from "react-native";
-import { View } from "react-native";
 import { TextInput } from "react-native";
 import { Pressable } from "react-native";
 import { Text } from "react-native";
@@ -13,7 +12,7 @@ const Untitled3 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><Pressable><Pressable><Text style={styles.IHmJxyhM}>Lorem ipsum…</Text></Pressable></Pressable><TextInput style={styles.DViYqIqT}></TextInput><View style={styles.CdAuCkgx}></View><ImageBackground style={styles.sitRkiJY} source={{
+    }}><Pressable><Pressable><Text style={styles.IHmJxyhM}>Lorem ipsum…</Text></Pressable></Pressable><TextInput style={styles.DViYqIqT}></TextInput><ImageBackground style={styles.sitRkiJY} source={{
         uri: "https://static.nationalgeographic.co.uk/files/styles/image_3200/public/makeperfectgettyimages-1003089626hr.jpg?w=1600&h=900"
       }} resizeMode="cover"></ImageBackground></ScrollView>
     </SafeAreaView>;
