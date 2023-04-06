@@ -1,3 +1,4 @@
+import { View } from "react-native";
 import { ImageBackground } from "react-native";
 import { TextInput } from "react-native";
 import { Pressable } from "react-native";
@@ -14,7 +15,7 @@ const Untitled3 = () => {
       flex: 1
     }}><Pressable><Pressable><Text style={styles.IHmJxyhM}>Lorem ipsum…</Text></Pressable></Pressable><TextInput style={styles.DViYqIqT}></TextInput><ImageBackground style={styles.sitRkiJY} source={{
         uri: "https://static.nationalgeographic.co.uk/files/styles/image_3200/public/makeperfectgettyimages-1003089626hr.jpg?w=1600&h=900"
-      }} resizeMode="cover"></ImageBackground></ScrollView>
+      }} resizeMode="cover"></ImageBackground><View style={styles.InMfWuoE}></View></ScrollView>
     </SafeAreaView>;
 };
 
@@ -49,6 +50,14 @@ const styles = StyleSheet.create({
   sitRkiJY: {
     width: 341,
     height: 326
+  },
+  InMfWuoE: {
+    height: 153,
+    width: 279,
+    backgroundColor: "#740000",
+    borderRadius: 0,
+    color: "#777777",
+    borderWidth: 4
   }
 });
 export default Untitled3;
