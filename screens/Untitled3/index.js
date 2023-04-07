@@ -15,7 +15,7 @@ const Untitled3 = () => {
       flex: 1
     }}><Pressable><Pressable><Text style={styles.IHmJxyhM}>Lorem ipsum…</Text></Pressable></Pressable><TextInput style={styles.DViYqIqT}></TextInput><ImageBackground style={styles.sitRkiJY} source={{
         uri: "https://static.nationalgeographic.co.uk/files/styles/image_3200/public/makeperfectgettyimages-1003089626hr.jpg?w=1600&h=900"
-      }} resizeMode="cover"></ImageBackground><View style={styles.InMfWuoE}></View></ScrollView>
+      }} resizeMode="cover"></ImageBackground><View style={styles.TffWQbnc}></View></ScrollView>
     </SafeAreaView>;
 };
 
@@ -58,6 +58,13 @@ const styles = StyleSheet.create({
     borderRadius: 0,
     color: "#777777",
     borderWidth: 4
+  },
+  TffWQbnc: {
+    height: 102,
+    width: 176,
+    backgroundColor: "#E4E4E4",
+    borderRadius: 0,
+    color: "#777777"
   }
 });
 export default Untitled3;
