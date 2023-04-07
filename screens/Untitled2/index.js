@@ -1,3 +1,4 @@
+import { View } from "react-native";
 import React from "react";
 import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
@@ -8,7 +9,7 @@ const Untitled2 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}></ScrollView>
+    }}><View style={styles.nfmYBANn}></View></ScrollView>
     </SafeAreaView>;
 };
 
@@ -34,6 +35,13 @@ const styles = StyleSheet.create({
   DzpNNNdv: {
     width: 107,
     height: 62
+  },
+  nfmYBANn: {
+    height: 60,
+    width: 140,
+    backgroundColor: "#f20000",
+    borderRadius: 0,
+    color: "#777777"
   }
 });
 export default Untitled2;
