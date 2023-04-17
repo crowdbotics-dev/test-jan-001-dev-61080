@@ -9,7 +9,7 @@ const Untitled4 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><View style={styles.nOOFbOtv}></View><View style={styles.zvBAdJZZ}></View><View style={styles.kEBppMTu}></View></ScrollView>
+    }}><View style={styles.nOOFbOtv}></View><View style={styles.zvBAdJZZ}></View><View style={styles2.kEBppMTu}></View></ScrollView>
     </SafeAreaView>;
 };
 
@@ -30,11 +30,13 @@ const styles = StyleSheet.create({
     backgroundColor: "#E4E4E4",
     borderRadius: 0,
     color: "#777777"
-  },
+  }
+});
+const styles2 = StyleSheet.create({
   kEBppMTu: {
     height: 60,
     width: 140,
-    backgroundColor: "#E4E4E4",
+    backgroundColor: "#000",
     borderRadius: 0,
     color: "#777777"
   }
