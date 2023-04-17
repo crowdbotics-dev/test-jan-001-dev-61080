@@ -9,7 +9,7 @@ const Untitled4 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><View style={styles.nOOFbOtv}></View><View style={styles.zvBAdJZZ}></View><View style={styles2.kEBppMTu}></View></ScrollView>
+    }}><View style={styles.nOOFbOtv}></View><View style={styles.zvBAdJZZ}></View><View style={styles2.kEBppMTu}></View><View style={styles2.tiAbwLbh}></View></ScrollView>
     </SafeAreaView>;
 };
 
@@ -37,6 +37,13 @@ const styles2 = StyleSheet.create({
     height: 60,
     width: 140,
     backgroundColor: "#000",
+    borderRadius: 0,
+    color: "#777777"
+  },
+  tiAbwLbh: {
+    height: 60,
+    width: 140,
+    backgroundColor: "#f9f9f9",
     borderRadius: 0,
     color: "#777777"
   }
