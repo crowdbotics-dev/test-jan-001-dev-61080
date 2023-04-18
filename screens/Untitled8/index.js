@@ -1,4 +1,3 @@
-import React from "react";
 import { View, StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
 const Untitled8 = () => {
@@ -8,7 +7,7 @@ const Untitled8 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><View style={styles.rXpDryTT}></View><View style={styles.ByUADIZh}></View><View style={styles.mzjEaDCt}></View></ScrollView>
+    }}><View style={styles.rXpDryTT}></View><View style={styles.mzjEaDCt}></View></ScrollView>
     </SafeAreaView>;
 };
 
@@ -20,13 +19,6 @@ const styles = StyleSheet.create({
     height: 60,
     width: 140,
     backgroundColor: "#E4E4E4",
-    borderRadius: 0,
-    color: "#777777"
-  },
-  ByUADIZh: {
-    height: 60,
-    width: 140,
-    backgroundColor: "#ff0000",
     borderRadius: 0,
     color: "#777777"
   },
