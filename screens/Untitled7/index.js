@@ -9,7 +9,7 @@ const Untitled7 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><TextInput style={styles.BGyfgvjD} value="Hola mundo"></TextInput><TextInput style={styles.cEjEyBtR}></TextInput><TextInput style={styles.pkWVOfSY}></TextInput></ScrollView>
+    }}><TextInput style={styles.BGyfgvjD} value="Hi there"></TextInput><TextInput style={styles.cEjEyBtR}></TextInput><TextInput style={styles.pkWVOfSY}></TextInput></ScrollView>
     </SafeAreaView>;
 };
 
@@ -27,11 +27,11 @@ const styles = StyleSheet.create({
   BGyfgvjD: {
     backgroundColor: "#ffffff",
     borderColor: "#cccccc",
-    width: 150,
+    width: 297,
     height: 30,
     position: "absolute",
-    left: 7,
-    top: 91
+    left: 17,
+    top: 83
   },
   cEjEyBtR: {
     backgroundColor: "#ffffff",
@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
     top: 207
   },
   pkWVOfSY: {
-    backgroundColor: "#ffffff",
+    backgroundColor: "#d00000",
     borderColor: "#cccccc",
     width: 150,
     height: 30,
